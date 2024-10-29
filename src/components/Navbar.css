@@ -1,0 +1,34 @@
+/* src/components/Navbar.css */
+
+.navbar {
+    background-color: #333;
+    padding: 15px;
+  }
+  
+  .navbar ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    justify-content: center; /* Center the items horizontally */
+  }
+  
+  .navbar li {
+    margin: 0 15px;
+    color: white;
+    cursor: pointer;
+    padding: 5px;
+    transition: background-color 0.3s, transform 0.2s; /* Added transition for smoother effects */
+  }
+  
+  .navbar li:hover {
+    background-color: #575757; /* Darker background on hover */
+    border-radius: 4px;
+    transform: scale(1.05); /* Slight scale effect on hover */
+  }
+  
+  .navbar li.active {
+    border-bottom: 2px solid #fff; /* Underline for active page */
+    font-weight: bold; /* Make active link bold */
+  }
+  

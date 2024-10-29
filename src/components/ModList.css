@@ -1,0 +1,45 @@
+/* src/components/ModList.css */
+
+.mod-list {
+    display: flex;
+    flex-wrap: wrap; /* Allow items to wrap to the next line */
+    justify-content: center; /* Center the items */
+    padding: 20px;
+  }
+  
+  .mod-item {
+    background-color: #fff; /* White background for each mod item */
+    border-radius: 8px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1); /* Subtle shadow for depth */
+    margin: 10px; /* Margin around each mod item */
+    padding: 15px; /* Padding inside each mod item */
+    width: calc(20% - 20px); /* Width for 5 items per row, accounting for margins */
+    transition: transform 0.2s; /* Smooth scaling effect */
+    box-sizing: border-box; /* Include padding and border in the element's total width and height */
+  }
+  
+  .mod-item:hover {
+    transform: scale(1.02); /* Slightly scale up on hover */
+  }
+  
+  .mod-title {
+    font-size: 1.5rem; /* Larger font for mod titles */
+    color: #333; /* Darker color for titles */
+  }
+  
+  .mod-description {
+    color: #555; /* Slightly lighter color for descriptions */
+    margin: 10px 0; /* Margin for descriptions */
+  }
+  
+  .mod-author {
+    font-style: italic; /* Italic style for author names */
+    color: #777; /* Lighter color for authors */
+  }
+  
+  .thumbnail {
+    width: 100%; /* Full width for thumbnails */
+    max-width: 150px; /* Limit max width */
+    margin: 10px 0; /* Margin for images */
+  }
+  
