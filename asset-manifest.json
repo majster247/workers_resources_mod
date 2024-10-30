@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/workers_resources_mod/static/css/main.df097527.css",
+    "main.js": "/workers_resources_mod/static/js/main.0ae8deb6.js",
+    "static/js/453.7bbe3a72.chunk.js": "/workers_resources_mod/static/js/453.7bbe3a72.chunk.js",
+    "index.html": "/workers_resources_mod/index.html",
+    "main.df097527.css.map": "/workers_resources_mod/static/css/main.df097527.css.map",
+    "main.0ae8deb6.js.map": "/workers_resources_mod/static/js/main.0ae8deb6.js.map",
+    "453.7bbe3a72.chunk.js.map": "/workers_resources_mod/static/js/453.7bbe3a72.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.df097527.css",
+    "static/js/main.0ae8deb6.js"
+  ]
+}
